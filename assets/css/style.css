@@ -8,7 +8,6 @@ html,body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
     min-height: 100vh;
     grid-template-areas:
         "head head head head head head"
@@ -72,7 +71,7 @@ html,body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 1rem;
-    width: 70%;
+    width: 100%;
 
 
 }
